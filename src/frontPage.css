@@ -1,0 +1,245 @@
+.container {
+    background-color: #fff;
+    width: 61%;
+    /* width: 58%; */
+    height: 100vh;
+    /* height: 80vh; */
+}
+
+.inside {
+    margin-left: 10rem;
+}
+
+.frontImage{
+    width: 39%;
+    /* width: 42%; */
+    position: absolute;
+    left: calc(55% + 90px);
+    /* left: calc(55% + 47px); */
+    right: 0;
+    background-repeat: no-repeat;
+    height: 100%;
+    /* height: 80vh; */
+    background-size: cover;
+    background-position: 100%;
+    top: 0;
+    background-color: hsla(26,5%,70%,.2);
+    overflow-x: auto;
+}
+
+.button {
+    width: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    line-height: 50px;
+    font-size: 14px;
+    height: 50px;
+    padding: 0 2rem;
+    color: #000;
+    letter-spacing: 0;
+    color: #fff;
+    background-color: #000;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+    font-size: 16px;
+    font-weight: 600;
+    /* height: 40px; */
+    /* line-height: 40px;*/
+    width: auto;
+}
+
+.findFoodButton {
+    position: absolute;
+    background-color: #8a2b06;
+    color: #fff;
+    height: 3.66rem;
+}
+
+.login {
+    background-color: white;
+    color: #000;
+    position: fixed;
+    box-shadow: none;
+    margin-top: 3rem;
+    margin-left: 18.9rem;
+}
+
+.login:hover {
+    color: #8a2b06;
+}
+
+.signUp {
+    margin-top: 3rem;
+    margin-left: 25.7rem;
+    position: absolute;
+}
+
+.inputPincode {
+    display: inline;
+    height: 3rem;
+    width: 30rem;
+    height: 58px!important;
+    line-height: 28px!important;
+    padding-top: 0!important;
+    padding-left: 15px!important;
+    padding-right: 160px!important;
+    caret-color: #8a2b06;
+    font-size: 18px!important;
+    font-weight: 500;
+}
+
+.inputPincode:hover {
+    border: 2px solid #8a2b06;
+    cursor: text;
+}
+
+#words {
+    color: #000;
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -.45px;
+}
+
+.appName {
+    color: #8a2b06;
+    margin: 0;
+    margin-top: 3rem;
+    margin-left: -2rem;
+    display: inline-block;
+    position: absolute;
+}
+
+.logo {
+    height: 10%;
+    margin-top: 2.2rem;
+    margin-left: -3rem;
+}
+
+.login-overlay {
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+    transition: 0.3s ease-in;
+    width: 29%;
+    right: 0;
+    height: 100%;
+    background-position: 100%;
+    top: 0;
+    overflow-x: auto;
+}
+
+#postalResults {
+    position: absolute;
+    width: 100%;
+    /* background: #fff; */
+    border-top-width: 0;
+    box-shadow: 0 1px 10px 0rgba(40,44,63,.1);
+    /* z-index: 1; */
+    width: 30rem;
+    border-radius: 3px;
+    height: 3rem;
+}
+
+.para {
+    /* margin-top: 0%; */
+    width: 38.7rem;
+    border-bottom: 1px dashed #bebfc5;
+    padding-top: 5px;
+    padding-left: 32px;
+    cursor: pointer;
+    color: black;
+    font-weight: 400;
+    /* outline: none; */
+}
+
+.para:hover {
+    color: #8a2b06;
+}
+
+.newClass {
+    border: 1px solid black;
+    position: absolute;
+    background-color: #fff;
+}
+
+.error {
+    margin-top: -2px;
+    padding-left: 10px;
+    padding-top: 7px;
+    width: 38.85rem;
+    height: 3rem;
+    border: 1px solid black;
+    position: absolute;
+    background-color: rgb(238, 75, 75);
+    color: #fff;
+}
+
+.cleartext {
+    margin-left: -2.5rem;
+    color: #8a2b06;
+    cursor: pointer;
+}
+
+#spanText {
+    display: inline-block;
+    width: 30rem;
+}
+
+.LocateMe {
+    margin-left: -6rem;
+    cursor: pointer;
+    color: #5a5a5e;
+    font-size: small;
+}
+
+#loadingButton {
+    font-size: 16px;
+}
+
+.fa {
+    margin-left: -12px;
+    margin-right: 8px;
+  }
+
+.login_signupOverlay {
+    position: relative;
+    z-index: 100000;
+    width: 33%;
+    background-color: white;
+    transition: width 1s;
+    height: 100vh;
+    float: right;
+    margin-top: -8px;
+    margin-right: -8px;
+    overflow: hidden;
+}
+
+.asd {
+    position: relative;
+    z-index: 100000;
+    width: 0%;
+    background-color: white;
+    transition: width 1s;
+    height: 100vh;
+    float: right;
+}
+
+.createAccount {
+    cursor: pointer;
+    color: #8a2b06;
+}
+
+.mainDoc {
+    overflow: hidden;
+}
+
+.feelHunger {
+    margin-top: 4rem;
+    font-size: 35px;
+    color: #6c6c78;
+    text-align: center; 
+}
