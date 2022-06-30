@@ -285,11 +285,13 @@ function FirstPage() {
               Find Food
             </button>
             <div id="postalResults" onClick={postalResultsClickedHandler}></div>
+            <div className="cities">
             <p>POPULAR CITIES IN INDIA</p>
             <p>
               Ahmedabad Bangalore Chennai Delhi Gurgaon Hyderabad Kolkata Mumbai
               Pune & more.
             </p>
+            </div>
             <p className="feelHunger">Feel Hunger? Just <span style={{color: "#8a2b06"}}>Zzzzap</span> it!</p>
             <img src={frontImage} alt="" className="frontImage" />
           </div>
